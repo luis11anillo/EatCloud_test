@@ -1,20 +1,10 @@
 # Referecias API.
+Para el desarrollo de esta prueba se creo una base de datos **"dbdonantes_colombia"** y tres tablas: **encabezados, detalles y puntos**  
 
 ### GET
-- **Todos los encabezados.** <br> Obtiene todos los datos de la tabla Encabezados
+Consultas a la base de datos:
+- **Todos los registros de una tabla.** <br> Obtiene todos los datos de la tabla Encabezados/ Para obtener todos los registros de una tabla
 ```php
   GET http://localhost/api/?tabla=encabezados&id=todos
 ```
-- **Todos los puntos.** <br> Obtiene todos los datos de la tabla Puntos
-```php
-  GET http://localhost/api/?tabla=puntos&id=todos
-```
-- **Todos los detalles.** <br> Obtiene todos los datos de la tabla Detalles
-```php
-  GET http://localhost/api/?tabla=detalles&id=todos
-```
-> Para obtener por el ID: http://localhost/api/?tabla={{Nombre_tabla}}&id={{id}}
-```php
-  GET http://localhost/api/?tabla=detalles&id=1
-```
-Obtiene el registro con id: 1 de la tablas detalles, 
+
